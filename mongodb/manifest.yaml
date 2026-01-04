@@ -21,7 +21,8 @@ spec:
         project: roboshop
         tier: database
     spec:
-    - name: mongodb 
-      image: joindevops/mongodb:v1    
+      containers:
+      - name: mongodb 
+        image: joindevops/mongodb:v1    
             
               
