@@ -29,7 +29,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-   namespace: roboshop
+   namespace: redis
    name: roboshop
    labels:
      component: redis
