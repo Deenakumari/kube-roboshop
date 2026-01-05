@@ -37,8 +37,8 @@ spec:
     spec:
       containers:
       - name: rabbitmq 
-        image: joindevops/rabbitmq:v1 
-        
+        image: deena012/rabbitmq:v1 
+
 
 ---
 apiVersion: v1
