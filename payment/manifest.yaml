@@ -54,11 +54,11 @@ spec:
         containers:
         - name: payment
           image: deena012/payment:v1
-        envFrom:
-        - configMapRef:
-            name: payment 
-        - secretRef:
-            name: payment     
+          envFrom:
+          - configMapRef:
+              name: payment 
+          - secretRef:
+              name: payment     
 
 ---
 apiVersion: v1
