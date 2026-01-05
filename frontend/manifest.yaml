@@ -4,7 +4,7 @@ metadata:
    namespace: roboshop
    name: frontend
    labels:
-     compone# nt: frontend
+     component: frontend
      project: roboshop
      tier: web
 data:
