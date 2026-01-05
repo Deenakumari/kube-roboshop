@@ -8,9 +8,9 @@ metadata:
      project: roboshop
      tier: app
 data:
-    MONGO= "true"
-    MONGO_URL= "mongodb://mongodb:27017/user" 
-    REDIS_URL= "redis://redis:6379"    
+    MONGO: "true"
+    MONGO_URL: "mongodb://mongodb:27017/user" 
+    REDIS_URL: "redis://redis:6379"    
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -38,9 +38,9 @@ spec:
         containers:
         - name: user
           image: deena012/user:v1
-        envFrom:
-        - configMapRef:
-            name: user  
+          envFrom:
+          - configMapRef:
+              name: user  
 
 ---
 apiVersion: v1
