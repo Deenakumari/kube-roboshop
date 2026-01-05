@@ -20,10 +20,10 @@ spec:
         component: redis
         project: roboshop
         tier: database 
-  spec:
-    containers:
-    - name: redis
-      image: redis:7.0
+    spec:
+      containers:
+      - name: redis
+        image: redis:7.0
 
 ---
 apiVersion: v1
